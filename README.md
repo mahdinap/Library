@@ -1,16 +1,69 @@
-# React + Vite
+# 📚 Library ,BookApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application for managing a personal book library, built with **React 19** and **Vite**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🔍 **Search** — Search through the book collection by title or other fields in real time
+- ❤️ **Like System** — Like your favorite books and keep track of them
+- 📦 **Mock Data** — Uses static mock data, no backend or API required
+- ⚡ **Fast UI** — Responsive and snappy interface powered by React 19 and Vite HMR
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Version |
+|---|---|
+| React | 19 |
+| Vite | 8 |
+| JavaScript | ES Modules |
+| ESLint | 10 |
+
+---
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/mahdinap/Library.git
+
+# Navigate to the project directory
+cd Library
+
+# Install dependencies
+npm install
+```
+
+### Running the App
+
+```bash
+# Start the development server
+npm run dev
+```
+
+## 📁 Project Structure
+
+```
+Library/
+├── public/          # Static assets
+├── src/             # Application source code
+├── index.html       # HTML entry point
+├── vite.config.js   # Vite configuration
+├── eslint.config.js # ESLint configuration
+└── package.json     # Project dependencies and scripts
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open source. See the repository for more details.
