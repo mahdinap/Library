@@ -2,7 +2,7 @@ import { useState } from "react"
 import {books} from "../constants/mockData.js"
 import BookCard from "./BookCard"
 import LikedList from "./LikedList"
-import styles from "./Books.module.css"
+import styles from "./BookCard.module.css"
 import SearchBox from "./SearchBox.jsx"
 
 export default function Books(){
