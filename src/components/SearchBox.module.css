@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.search{
+    padding: 8px 5px;
+    margin: 10px;
+    
+}
+.search:hover{
+    cursor: pointer;
+    background-color: deepskyblue;
+    color: aliceblue;
+}
+.container input{
+    padding: 8px 5px;
+}
